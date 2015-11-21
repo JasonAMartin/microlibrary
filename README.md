@@ -2,22 +2,24 @@
 
 Testing out creating a microlibrary for GitHub, NPM, etc.
 
-This library does nothing special. It has a list of games that I've played and it returns all of them, random one or a list starting with whatever criteria is passed in.
+:memo: This library does nothing special. It has a list of games that I've played and it returns all of them, random one or a list starting with whatever criteria is passed in.
 
-[![Travis CI:](https://travis-ci.org/JasonAMartin/microlibrary.svg?branch=master)
+For this microlibrary, I wanted to experiment with implementing a CI build system. I'm using Travis CI along with coveralls. Additionally, I use Istanbul for coverage.
 
-Testing coveralls.io.
+Travis CI report: ![Travis CI](https://travis-ci.org/JasonAMartin/microlibrary.svg?branch=master)
 
-[![Coverage Status](https://coveralls.io/repos/JasonAMartin/microlibrary/badge.svg?branch=master&service=github)](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
+Coverage via Coveralls.io: ![Coverage Status](https://coveralls.io/repos/JasonAMartin/microlibrary/badge.svg?branch=master&service=github)](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
 
 
-- using mocha / chai
+For testing, I'm using mocha / chai.
 
-##Install:
+:collision: I'm using ES2015, but for testing, I point to the ES5 file, which may be why coverage is reporting at under 100%.
+
+## Install:
 
 npm install microlibrary
 
-##Usage:
+## Usage:
 
 ```javascript
 var games = require('microlibrary');
