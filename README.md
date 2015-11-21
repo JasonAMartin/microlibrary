@@ -6,6 +6,11 @@ This library does nothing special. It has a list of games that I've played and i
 
 ![Messing around with Shields.io](https://img.shields.io/npm/dt/microlibrary.svg)
 
+Testing coveralls.io.
+
+[![Coverage Status](https://coveralls.io/repos/JasonAMartin/microlibrary/badge.svg?branch=master&service=github)](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
+
+
 - using mocha / chai
 
 ##Install:
