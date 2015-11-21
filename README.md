@@ -6,10 +6,11 @@ Testing out creating a microlibrary for GitHub, NPM, etc.
 
 For this microlibrary, I wanted to experiment with implementing a CI build system. I'm using Travis CI along with coveralls. Additionally, I use Istanbul for coverage.
 
-Travis CI report: ![Travis CI](https://travis-ci.org/JasonAMartin/microlibrary.svg?branch=master)
+Travis CI report:
+![Travis CI](https://travis-ci.org/JasonAMartin/microlibrary.svg?branch=master)
 
-Coverage via Coveralls.io: ![Coverage Status](https://coveralls.io/repos/JasonAMartin/microlibrary/badge.svg?branch=master&service=github)](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
-
+Coverage via Coveralls.io:
+![Coverage Status](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
 
 For testing, I'm using mocha / chai.
 
