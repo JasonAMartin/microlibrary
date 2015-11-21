@@ -4,7 +4,7 @@ Testing out creating a microlibrary for GitHub, NPM, etc.
 
 This library does nothing special. It has a list of games that I've played and it returns all of them, random one or a list starting with whatever criteria is passed in.
 
-![Messing around with Shields.io](https://img.shields.io/npm/dt/microlibrary.svg)
+Travis CI: https://travis-ci.org/JasonAMartin/microlibrary.svg?branch=master
 
 Testing coveralls.io.
 

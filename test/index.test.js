@@ -1,5 +1,10 @@
-import {expect} from 'chai';
-import gameNames from './index';
+/*
+  Sidenote: When I was trying to run this test with Istanbul/Mocha through Babel so this page could reference the ES6 SRC,
+  I was getting either errors or success, but no coverage.
+*/
+
+var expect = require('chai').expect;
+var gameNames = require('../dist/index');
 
 function isArrayOfStrings(array){
   return array.every(function(item){
