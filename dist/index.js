@@ -14,7 +14,3 @@ module.exports = {
   all: _gameNames2.default,
   random: (0, _uniqueRandomArray2.default)(_gameNames2.default)
 };
-
-var blue = function blue(something) {
-  console.log("hey");
-};
