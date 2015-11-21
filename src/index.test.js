@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var gameNames = require('./index');
+import {expect} from 'chai';
+import gameNames from './index';
 
 describe('game-names', function(){
   describe('all', function(){
