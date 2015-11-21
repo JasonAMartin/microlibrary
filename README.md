@@ -10,7 +10,7 @@ Travis CI report:
 ![Travis CI](https://travis-ci.org/JasonAMartin/microlibrary.svg?branch=master)
 
 Coverage via Coveralls.io:
-![Coverage Status](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
+[![Coverage Status](https://coveralls.io/repos/JasonAMartin/microlibrary/badge.svg?branch=master&service=github)](https://coveralls.io/github/JasonAMartin/microlibrary?branch=master)
 
 For testing, I'm using mocha / chai.
 
