@@ -1,6 +1,6 @@
 {
   "name": "microlibrary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test library that just gets random game names.",
   "main": "src/index.js",
   "scripts": {
